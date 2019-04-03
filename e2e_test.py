@@ -11,7 +11,7 @@
 import urllib2
 import logging
 
-HOST='http://.appspot.com'
+HOST='http://continuous-deployment-demo.appspot.com'
 
 # [START e2e]
 response = urllib2.urlopen("{}/get_author/ulysses".format(HOST))
